@@ -43,5 +43,13 @@ public class LCMHCF {
 			return calculateHCF(num2 % num1, num1);
 		}
 }
+	
+	public static void main(String...arg)
+	{
+		
+		System.out.println(calculateHCF(10, 5));
+		System.out.println(calculateLCM(25, 60));
+		System.out.println(calculateGCD(10, 5));
+	}
 }
 
