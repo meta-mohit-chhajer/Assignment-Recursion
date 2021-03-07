@@ -100,8 +100,14 @@ public class NQueen {
 		int board[][] = new int[size][size];
 		if (!solveNQueen(board, 0))
 			board = new int[size][size];
-		else
-			printSolution(board);
+		
 		return board;
 	}
+	
+	public static void main(String...arg)
+	{
+		int [][] result=getNQueenSolution(4);
+		printSolution(result);
+	}
+	
 }
