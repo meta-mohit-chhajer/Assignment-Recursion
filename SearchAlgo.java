@@ -51,5 +51,12 @@ public class SearchAlgo {
 		}
 		return -1;
 	}
+	public static void main(String...arg)
+	{
+		int []arr=new int[]{1, 3, 6, 7, 8, 10, 12, 17};
+		int n=arr.length;
+		System.out.println(binarySearch(arr, 8, 0, n));
+		System.out.println(linearSearch(arr, 8));
+	}
 
 }
